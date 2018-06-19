@@ -1,0 +1,16 @@
+[
+{
+  "modid": "webslowcancel",
+  "name": "WebSlowCancel",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LazyGom"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
