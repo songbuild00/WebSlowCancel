@@ -41,7 +41,6 @@ public class WSCClassTransformer implements IClassTransformer {
 		Iterator<MethodNode> methods = classNode.methods.iterator();
 		while (methods.hasNext()) {
 			MethodNode methodNode = methods.next();
-			System.out.println(methodNode.name + " " + methodNode.desc);
 			if (methodNode.name.equals(targetMethodName) && methodNode.desc.equals(targetMethodDesc)) {
 				Iterator<AbstractInsnNode> iterator = methodNode.instructions.iterator();
 				while (iterator.hasNext()) {
